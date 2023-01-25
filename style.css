@@ -1,0 +1,67 @@
+.youtube_area {
+  padding-top: 56.25%;
+  height: 0;
+  position: relative;
+}
+
+#player {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left:50%;
+  transform: translateX(-50%);
+  height: 115%;
+  width: 115%;
+}
+.cover {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+body {
+  overflow:hidden;
+  padding:0;
+  margin:0;
+  position: relative;
+}
+
+.background {
+  position: absolute;
+  background: no-repeat url("./스크린샷\ 2023-01-25\ 오후\ 4.13.png");
+  background-size: contain;
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  margin-left: 50%;
+  top:0;
+  left:0;
+  transform: translateX(-30%);
+
+  animation: MoveUpDown 1s ease-in-out infinite;
+
+}
+
+.background iframe {
+  height: 586px;
+  width: 270px;
+  position: absolute;
+  top: 57px;
+  left: 50%;
+  transform: translateX(-347px);
+  border-radius: 27px;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    top: 0;
+    left:0;
+  }
+  50% {
+    top: 16px;
+    left:16px;
+  }
+}
