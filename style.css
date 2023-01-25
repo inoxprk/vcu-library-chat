@@ -31,7 +31,7 @@ body {
 
 .background {
   position: absolute;
-  background: no-repeat url("./스크린샷\ 2023-01-25\ 오후\ 4.13.png");
+  background: no-repeat url("./hand.png");
   background-size: contain;
   width: 1000px;
   height: 1000px;
